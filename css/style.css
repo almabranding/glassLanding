@@ -1,0 +1,93 @@
+body, html {
+	background-color: #212123;
+	margin:0px;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFF;
+}
+
+#container {
+	margin: 0 auto;
+	width:100%;
+	text-align:center;
+}
+
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:#212123;
+	height:300px;
+}
+
+#footer img {
+	max-width:100%;
+	height:100%;
+	display:block;
+}
+
+p {
+	margin:0px;
+	padding:0px;
+	color:#FFFFFF; 
+}
+
+.text {
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.button_home a:link,  .button_home a:visited {
+	color: #CCC;
+	text-decoration: none;
+}
+
+.button_home a:hover {color: #FFF;}
+
+button {
+	color: #FFF;
+	background-color: #212123;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	cursor:pointer;
+	width:55px;
+	height:24px;
+	background-image: url(../images/button_send.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+input {
+    background-color: #212123;
+    border: medium none;
+    color: #999999;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    height: 22px;
+    padding: 9px 0 0;
+    position: relative;
+    text-align: left;
+    top: 4px;
+}
+input[type="text"] {
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 60px 0 30px;
+    width: 280px;
+}
+label{
+    position: relative;
+    top: 7px;
+}
+hr {
+  color:#CCC;
+	background-color: #CCC;
+	height: 1px;
+	width: 75%;
+	border:0;
+}
+
