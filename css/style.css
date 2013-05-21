@@ -1,5 +1,5 @@
 body, html {
-	background-color: #212123;
+	background-color: #000;
 	margin:0px;
 	height: 100%;
 	font-family: Arial, Helvetica, sans-serif;
@@ -29,9 +29,11 @@ body, html {
 }
 
 p {
-	margin:0px;
-	padding:0px;
-	color:#FFFFFF; 
+	clear: both;
+        color: #FFFFFF;
+        display: block;
+        margin: 0;
+        padding: 0; 
 }
 
 .text {
@@ -47,22 +49,20 @@ p {
 .button_home a:hover {color: #FFF;}
 
 button {
-	color: #FFF;
-	background-color: #212123;
-	border: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: normal;
-	cursor:pointer;
-	width:55px;
-	height:24px;
-	background-image: url(../images/button_send.gif);
-	background-repeat: no-repeat;
-	background-position: left top;
+    background: url("../images/send.jpg") no-repeat scroll center top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 24px;
+    margin-top: 44px;
+    width: 100%;
 }
 
 input {
-    background-color: #212123;
+    background-color: #000;
     border: medium none;
     color: #999999;
     font-family: Arial,Helvetica,sans-serif;
@@ -76,12 +76,14 @@ input {
 }
 input[type="text"] {
     border-bottom: 1px solid #FFFFFF;
-    margin: 0 60px 0 30px;
-    width: 280px;
+    float: left;
+    margin: 0 0 0 30px;
+    width: 295px;
 }
 label{
+    float: left;
     position: relative;
-    top: 7px;
+    top: 19px;
 }
 hr {
   color:#CCC;
